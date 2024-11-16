@@ -1,16 +1,20 @@
-# cloud
-
-A new Flutter project.
+# Aplicacion de tareas
+Proyecto hecho con flutter y firebase.
+Con funcionalidad para agregar, modificar y eliminar tareas.
+Cada tarea tiene los siguientes campos:
+- Titulo
+- Descripcion
+- Estado (pendiente, terminado)
+- Eliminar
 
 ## Getting Started
+1. Clonar el repositorio
+`git clone https://github.com/CarlosGunter/appmovil-todo.git`.
+2. Crear y configurar un proyecto en firebase.
+3. Crear una base de datos en firestore con el nombre `todo`.
+4. Instalar [firebase tools](https://firebase.google.com/docs/cli?hl=es-419) en el equipo.
+`npm install -g firebase-tools`
+5. Instalar las dependencias
+`flutter pub get`
+6. Correr el proyecto
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
