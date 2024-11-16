@@ -1,11 +1,15 @@
 # Aplicacion de tareas
 Proyecto hecho con flutter y firebase.
+
 Con funcionalidad para agregar, modificar y eliminar tareas.
+
 Cada tarea tiene los siguientes campos:
 - Titulo
 - Descripcion
 - Estado (pendiente, terminado)
 - Eliminar
+
+![Ejemplo](/assets/sample.jpg)
 
 ## Getting Started
 1. Clonar el repositorio
