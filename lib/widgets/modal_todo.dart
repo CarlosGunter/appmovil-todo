@@ -30,7 +30,7 @@ class _ModalTodoState extends State<ModalTodo> {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.2),
+        color: Colors.purple.withValues(alpha: 0.1),
       ),
       child: Column(
         children: [

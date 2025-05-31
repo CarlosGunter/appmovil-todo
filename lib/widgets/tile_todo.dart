@@ -22,7 +22,7 @@ class TileTodo extends StatefulWidget {
 }
 
 class _TileTodoState extends State<TileTodo> {
-  final Color primaryColor = Colors.purple;
+  final Color primaryColor = Colors.purple.shade800;
   late String id;
   late String title;
   late String content;
@@ -53,16 +53,16 @@ class _TileTodoState extends State<TileTodo> {
         },
         icon: status
             ? Icon(
-          Icons.check,
-          color: primaryColor,
-        )
+              Icons.check,
+              color: primaryColor,
+            )
             : const Icon(
-          Icons.access_time,
-          color: Colors.orange,
-        ),
+              Icons.access_time,
+              color: Colors.orange,
+            ),
       ),
       trailing: IconButton(
-        icon: const Icon(Icons.delete),
+        icon: const Icon(Icons.delete, color: Colors.white,),
         onPressed: () async {
           await deleteTodo(id).onError(
                 (error, stackTrace) { dialog(context, 'Error', 'Algo salio mal :('); },
