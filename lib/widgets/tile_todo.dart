@@ -62,7 +62,7 @@ class _TileTodoState extends State<TileTodo> {
             ),
       ),
       trailing: IconButton(
-        icon: const Icon(Icons.delete, color: Colors.white,),
+        icon: const Icon(Icons.delete, color: Colors.white54,),
         onPressed: () async {
           await deleteTodo(id).onError(
                 (error, stackTrace) { dialog(context, 'Error', 'Algo salio mal :('); },
