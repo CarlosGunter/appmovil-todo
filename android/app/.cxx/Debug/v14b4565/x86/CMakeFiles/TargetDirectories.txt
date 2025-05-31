@@ -1,0 +1,2 @@
+F:/Bibliotecas/Documents/Programacion/movil/cloud/android/app/.cxx/Debug/v14b4565/x86/CMakeFiles/edit_cache.dir
+F:/Bibliotecas/Documents/Programacion/movil/cloud/android/app/.cxx/Debug/v14b4565/x86/CMakeFiles/rebuild_cache.dir
