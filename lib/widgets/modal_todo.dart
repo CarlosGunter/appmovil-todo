@@ -30,7 +30,7 @@ class _ModalTodoState extends State<ModalTodo> {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Colors.purple.withValues(alpha: 0.3),
+        color: Colors.deepPurpleAccent.withValues(alpha: 0.6, red: 0, green: 0, blue: 0),
       ),
       child: Column(
         children: [
@@ -42,18 +42,18 @@ class _ModalTodoState extends State<ModalTodo> {
           TextField(
             controller: titleController,
             decoration: const InputDecoration(
-              hintText: 'Tarea',
+              hintText: 'Nueva tarea',
             ),
           ),
           // Content
           const Padding(
             padding: EdgeInsets.only(top: 18.0, bottom: 0.0),
-            child: Text('Contenido', style: TextStyle(fontSize: 18)),
+            child: Text('Descripción', style: TextStyle(fontSize: 18)),
           ),
           TextField(
             controller: contentController,
             decoration: const InputDecoration(
-              hintText: 'Realizar tarea',
+              hintText: 'Entregar proyecto',
             ),
           ),
           // Status
