@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Todo App',
+      title: 'TODO App',
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       routes: {
